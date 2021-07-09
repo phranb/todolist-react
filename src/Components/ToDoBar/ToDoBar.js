@@ -7,7 +7,7 @@ class ToDoBar extends React.Component {
         return (
             <div className="b11-div" >
             <input className="Todobar" placeholder="todo_title_"></input>
-            <button className="button b11-button is-danger is-outlined" >ok</button>
+            <button className="button b11-button is-danger is-outlined" ><i class="fas fa-check"></i></button>
             </div>
         );
     }

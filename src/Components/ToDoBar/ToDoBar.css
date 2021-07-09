@@ -1,6 +1,7 @@
 div .b11-div {
     width: 50%;
     max-height: 5vh !important;
+    margin-bottom: 5em;
 }
 .Todobar{
     font-size: 3em;
@@ -8,6 +9,7 @@ div .b11-div {
     border: none;
     padding: 10px;
     width: 90%;
+    
 }
 input::placeholder {
     color: #f5a7b7;
@@ -27,7 +29,19 @@ input {
 .b11-button{
     padding: 10px;
     width: 10%;
-    font-size: 1.9em;
+    font-size: 2em;
     font-family: 'Raleway', sans-serif;
     font-weight: bolder;
+    border: none;
+    outline: none;
+    
+}
+
+.b11-button:hover{
+    background: rgba(255, 255, 255, 0) !important;
+    
+}
+
+.b11-button:focus {
+    background: rgba(255, 255, 255, 0) !important;
 }
