@@ -1,8 +1,11 @@
+import React from 'react';
 import './App.css';
 import ToDoBar from './Components/ToDoBar/ToDoBar';
 import DescriptionBox from './Components/DescriptionBox/DescriptionBox';
 
-function App() {
+class App extends React.Component {
+
+  render() {
   return (
     <div className="App">
       <header className="App-header">
@@ -13,6 +16,7 @@ function App() {
       <DescriptionBox />
     </div>
   );
+}
 }
 
 export default App;
